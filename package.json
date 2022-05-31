@@ -4,6 +4,7 @@
   "description": "",
   "directories": {},
   "scripts": {
+    "preinstall": "ls -l",
     "build":"ls -l",
     "test": "ls -l",
     "coverage": "ls -l",
@@ -39,7 +40,8 @@
     "inquirer": "^8.2.0",
     "minimist": "^1.2.6",
     "solc": "^0.8.10",
-    "typechain": "^6.0.5"
+    "typechain": "^6.0.5",
+    "bignumber.js": "^9.0.2"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
